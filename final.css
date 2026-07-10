@@ -1,0 +1,4 @@
+/* Premium cards */
+.hover-lift{transition:.3s ease;}
+.hover-lift:hover{transform:translateY(-8px);box-shadow:0 16px 40px rgba(0,0,0,.18);}
+.gradient-red{background:linear-gradient(135deg,#c1121f,#780000);color:#fff;}
