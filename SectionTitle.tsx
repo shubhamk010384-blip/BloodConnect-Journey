@@ -1,1 +1,0 @@
-export default function SectionTitle({title}:{title:string}){return <h2 style={{fontSize:'2.5rem',textAlign:'center',margin:'60px 0 30px'}}>{title}</h2>}
