@@ -35,8 +35,8 @@ export default function AwarenessSessions() {
             lineHeight: 1.8,
           }}
         >
-          During my BloodConnect journey I conducted awareness sessions both
-          offline and online to educate students about blood donation and
+          During my BloodConnect journey, I conducted awareness sessions in both
+          offline and online modes to educate students about blood donation and
           inspire them to become regular blood donors.
         </p>
 
@@ -50,34 +50,45 @@ export default function AwarenessSessions() {
           <div>
             <Image
               src="/images/session1.jpg"
-              alt="Classroom Session"
+              alt="Session 1"
               width={600}
               height={400}
-              style={{ width: '100%', borderRadius: '18px' }}
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: '18px',
+              }}
             />
-            <h3>Offline Awareness Session</h3>
+            <h3
+              style={{
+                textAlign: 'center',
+                marginTop: '15px',
+              }}
+            >
+              Session 1
+            </h3>
           </div>
 
           <div>
             <Image
               src="/images/session2.jpg"
-              alt="Online Session"
+              alt="Session 2"
               width={600}
               height={400}
-              style={{ width: '100%', borderRadius: '18px' }}
+              style={{
+                width: '100%',
+                height: 'auto',
+                borderRadius: '18px',
+              }}
             />
-            <h3>Online Awareness Session</h3>
-          </div>
-
-          <div>
-            <Image
-              src="/images/session3.jpg"
-              alt="Blood Donation Presentation"
-              width={600}
-              height={400}
-              style={{ width: '100%', borderRadius: '18px' }}
-            />
-            <h3>Blood Preservation Session</h3>
+            <h3
+              style={{
+                textAlign: 'center',
+                marginTop: '15px',
+              }}
+            >
+              Session 2
+            </h3>
           </div>
         </div>
       </div>
