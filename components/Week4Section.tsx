@@ -35,38 +35,39 @@ export default function Week4Section() {
           }}
         >
           Week 4 was one of the most memorable phases of my BloodConnect
-          internship. I had the opportunity to conduct both online and offline
-          awareness sessions where I interacted with students and explained the
+          internship. I had the opportunity to conduct multiple awareness
+          sessions where I interacted with students and explained the
           importance of voluntary blood donation.
 
           <br />
           <br />
 
-          During these sessions, I discussed the different types of blood
-          donation, eligibility criteria, blood preservation techniques,
-          donation myths, and the life-saving impact of becoming a regular
-          donor. Seeing participants actively engage, ask thoughtful questions,
-          and express interest in donating blood made every session meaningful.
+          During these sessions, I discussed different types of blood
+          donation, donor eligibility, blood preservation techniques,
+          common myths about blood donation, and the life-saving impact of
+          becoming a regular blood donor.
 
           <br />
           <br />
 
-          These experiences strengthened my public speaking, communication, and
-          leadership skills while reinforcing my belief that awareness is the
-          first step toward saving lives.
+          The enthusiastic participation and curiosity shown by the audience
+          made every session meaningful. These experiences strengthened my
+          communication, leadership and public speaking skills while
+          reinforcing my belief that awareness is the first step toward
+          saving lives.
         </p>
 
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit,minmax(300px,1fr))',
+            gridTemplateColumns: 'repeat(auto-fit,minmax(320px,1fr))',
             gap: '25px',
             marginTop: '40px',
           }}
         >
           <img
             src="/images/session1.jpg"
-            alt="Offline Awareness Session"
+            alt="Session 1"
             style={{
               width: '100%',
               borderRadius: '18px',
@@ -76,17 +77,7 @@ export default function Week4Section() {
 
           <img
             src="/images/session2.jpg"
-            alt="Online Session"
-            style={{
-              width: '100%',
-              borderRadius: '18px',
-              boxShadow: '0 8px 20px rgba(0,0,0,.15)',
-            }}
-          />
-
-          <img
-            src="/images/session3.jpg"
-            alt="Blood Donation Presentation"
+            alt="Session 2"
             style={{
               width: '100%',
               borderRadius: '18px',
@@ -119,11 +110,11 @@ export default function Week4Section() {
               lineHeight: '1.8',
             }}
           >
-            Every awareness session proved that education has the power to save
-            lives. A simple conversation can remove fear, clear misconceptions,
-            and inspire someone to become a lifelong blood donor. These sessions
-            reminded me that real change begins when knowledge is shared with
-            compassion.
+            Every awareness session proved that education has the power to
+            save lives. A simple conversation can remove fear, clear
+            misconceptions and inspire someone to become a lifelong blood
+            donor. These sessions reminded me that real change begins when
+            knowledge is shared with compassion.
           </p>
         </div>
 
@@ -138,8 +129,8 @@ export default function Week4Section() {
             color: '#666',
           }}
         >
-          "A single awareness session may last only an hour, but the decision it
-          inspires can save lives for years to come."
+          "A single awareness session may last only an hour, but the decision
+          it inspires can save lives for years to come."
         </blockquote>
       </div>
     </motion.section>
